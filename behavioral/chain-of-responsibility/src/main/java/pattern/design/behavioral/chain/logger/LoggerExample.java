@@ -1,4 +1,4 @@
-package pattern.design.behavioral.demo.logger;
+package pattern.design.behavioral.chain.logger;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;

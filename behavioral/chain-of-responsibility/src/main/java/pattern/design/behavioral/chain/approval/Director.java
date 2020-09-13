@@ -1,4 +1,4 @@
-package pattern.design.behavioral.demo.approval;
+package pattern.design.behavioral.chain.approval;
 
 public class Director extends Handler {
 
