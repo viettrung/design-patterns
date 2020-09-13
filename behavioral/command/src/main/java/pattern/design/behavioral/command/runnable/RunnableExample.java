@@ -1,4 +1,4 @@
-package pattern.design.behavioral.demo.runnable;
+package pattern.design.behavioral.command.runnable;
 
 public class RunnableExample {
 
