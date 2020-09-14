@@ -29,3 +29,5 @@ hs_err_pid*
 .metadata
 
 target
+
+.DS_Store
