@@ -10,8 +10,11 @@ public class CommandDemo {
 		Switch lightSwitch = new Switch();
 		
 		Command onCommand = new OnCommand(light);
-		
 		lightSwitch.storeAndExecute(onCommand);
+		
+		Command toggleCommand = new ToggleCommand(light);
+		lightSwitch.storeAndExecute(toggleCommand);
+		
 	}
 
 }
