@@ -1,4 +1,4 @@
-package mediatorpattern.design.behavioral.mediator;
+package pattern.design.behavioral.mediator;
 
 public class TurnOnAllLightsCommand implements Command {
 

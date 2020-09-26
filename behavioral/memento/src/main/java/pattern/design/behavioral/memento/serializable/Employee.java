@@ -1,8 +1,8 @@
-package mementomediatorpattern.design.behavioral.memento;
+package pattern.design.behavioral.memento.serializable;
 
 import java.io.Serializable;
 
-public class Employee implements Serializable {
+public class Employee {
 
 	private String name;
 	private String address;

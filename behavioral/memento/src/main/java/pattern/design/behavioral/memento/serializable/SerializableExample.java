@@ -1,4 +1,4 @@
-package mementomediatorpattern.design.behavioral.memento;
+package pattern.design.behavioral.memento.serializable;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
