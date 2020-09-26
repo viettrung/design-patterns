@@ -1,8 +1,6 @@
-package pattern.design.behavioral.memento.serializable;
+package pattern.design.behavioral.memento;
 
-import java.io.Serializable;
-
-public class Employee implements Serializable {
+public class Employee {
 
 	private String name;
 	private String address;
@@ -37,4 +35,12 @@ public class Employee implements Serializable {
 		return "Employee [name=" + name + ", address=" + address + ", phone=" + phone + "]";
 	}
 
+	public EmployeeMemento save() {
+		return new EmployeeMemento(name, phone);
+	}
+
+	public void revert(EmployeeMemento employeeMemento) {
+		this.name = employeeMemento.getName();
+		this.phone = employeeMemento.getPhone();
+	}
 }
