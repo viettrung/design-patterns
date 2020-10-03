@@ -1,4 +1,4 @@
-package statepattern.design.behavioral.state;
+package pattern.design.behavioral.state;
 
 public class FanLowState extends State {
 	private Fan fan;

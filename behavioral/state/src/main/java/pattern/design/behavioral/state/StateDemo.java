@@ -1,4 +1,4 @@
-package statepattern.design.behavioral.state;
+package pattern.design.behavioral.state;
 
 public class StateDemo {
 
